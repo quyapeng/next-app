@@ -1,9 +1,9 @@
 "use client";
 import "./globals.css";
 import "antd-mobile/es/global";
-
 import Nav from "./Nav";
 import { useEffect } from "react";
+// import "lib-flexible";
 // import dynamic from 'next/dynamic';
 
 // const DynamicPage = dynamic(import('./home'), { ssr: false });
@@ -11,9 +11,9 @@ import { useEffect } from "react";
 // export default App () {
 //   return <HomePage />
 // }
-const setRem = async () => {
-  await require("lib-flexible");
-};
+// const setRem = async () => {
+//   await require("lib-flexible");
+// };
 
 export default function RootLayout({
   children,
@@ -21,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   useEffect(() => {
-    setRem();
-    window.addEventListener("resize", setRem);
+    // setRem();
+    // window.addEventListener("resize", setRem);
   });
   return (
     <html lang="zh_CN">

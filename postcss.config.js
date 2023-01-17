@@ -1,8 +1,9 @@
 module.exports = {
   plugins: {
     "postcss-pxtorem": {
-      rootValue: 750 / 10,
-      unitPrecision: 5,
+      rootValue: 1000,
+      //   viewportWidth: 750,
+      //   unitPrecision: 5,
       propList: ["*"],
       selectorBlackList: [/^\.html/], //排除html样式
       replace: true,
