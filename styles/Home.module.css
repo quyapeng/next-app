@@ -1,0 +1,135 @@
+.banner {
+  height: 177px;
+}
+.item {
+  padding-top: 34px;
+}
+.item h2,
+.item i,
+.item p,
+.item h3 {
+  text-align: center;
+}
+.item h2 {
+  height: 17px;
+  width: 107px;
+  margin: 0 auto;
+}
+.title1 {
+  background: url("/index/title1.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.item h3 {
+  color: #0d0d0d;
+  font-weight: 300;
+  font-size: 13px;
+  margin: 3px 0 0 0;
+}
+.item p {
+  color: #999;
+  font-size: 11px;
+  line-height: 20px;
+  margin: 12px 0 18px 0;
+}
+.label_icon {
+  display: flex;
+  margin: 0 16px;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  flex: 1;
+}
+.icon1 i,
+.icon2 i,
+.icon3 i,
+.icon4 i {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 9px auto;
+}
+.icon1 h3,
+.icon2 h3,
+.icon3 h3,
+.icon4 h3 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.icon1 i {
+  background: url("/index/icon1.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.icon1 h3 {
+  color: #fccc1f;
+}
+.icon2 i {
+  background: url("/index/icon2.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.icon2 h3 {
+  color: #ee783c;
+}
+.icon3 i {
+  background: url("/index/icon3.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.icon3 h3 {
+  color: #5daee2;
+}
+.icon4 i {
+  background: url("/index/icon4.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.icon4 h3 {
+  color: #6abd75;
+}
+.title2 {
+  background: url("/index/title2.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.item h2.title3 {
+  width: 67px;
+}
+.title3 {
+  background: url("/index/title3.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.item h2.title_info {
+  width: 67px;
+  background: url("/info/title.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.item h2.system_title1 {
+  width: 102px;
+  background: url("/system/title1.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.item h4 {
+  color: #999;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.item h2.system_title2 {
+  width: 102px;
+  background: url("/system/title2.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.item h2.system_title3 {
+  width: 68px;
+  background: url("/system/title3.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.item h2.system_title4 {
+  width: 102px;
+  background: url("/system/title4.png") no-repeat center center;
+  background-size: 100% 100%;
+}

@@ -1,0 +1,78 @@
+.nav-bar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar > li {
+  height: 44px;
+  overflow: hidden;
+  animation: all 0.5s;
+}
+.nav-bar a {
+  display: block;
+  font-size: 26px;
+  color: #000;
+  line-height: 88px;
+  padding-left: 56px;
+  background: url("/item.png") no-repeat 32px center;
+  background-size: 12px 12px;
+}
+.nav-bar a:active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.nav-bar a:visited {
+  color: #000;
+}
+
+.nav-bar.active {
+  height: auto;
+}
+
+.nav-bar.active ul {
+  margin-top: 15px;
+  padding: 0;
+}
+
+.nav-bar.active a,
+.nav-bar.active li {
+  color: #ff6c22;
+}
+
+.nav-bar.active a {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nav-bar.active li {
+  list-style-type: none;
+  line-height: 48px;
+  font-size: 24px;
+  padding-left: 83px;
+}
+
+.nav-bar.active li:active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn {
+  width: 560px;
+  height: 94px;
+  border-radius: 47px;
+  background-color: #ffde5c;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  font-size: 32px;
+  text-align: center;
+  line-height: 94px;
+}
+.btn:active {
+  opacity: 0.8;
+}
+.btn,
+.btn:visited,
+.btn:hover {
+  color: #000;
+}
