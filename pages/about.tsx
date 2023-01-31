@@ -1,19 +1,48 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import { Button, Card, Steps, Avatar, List, Space } from "antd-mobile";
+import Image from "next/image";
+import styles from "@/styles/Home.module.css";
+import about from "@/styles/About.module.css";
 
-const { Step } = Steps;
 const About: NextPage = () => {
   return (
-    <div className="main-content">
-      <Head>
-        <title>关于我们</title>
-        <meta name="description" content="关于我们" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className="about">
-        <h3>haha哈哈</h3>
+    <div className={styles.item}>
+      <h2 className={about.about_title}></h2>
+      <i className={"title"}></i>
+      <h6>CONTACT US</h6>
+      <div style={{ margin: "0 8px", overflow: "hidden" }}>
+        <Image
+          src="/about/qrcode_1.png"
+          width={"178"}
+          height={"191"}
+          alt=""
+          style={{ float: "left" }}
+          priority
+        />
+        <Image
+          src="/about/qrcode_2.png"
+          width={"178"}
+          height={"191"}
+          alt=""
+          style={{ float: "right" }}
+          priority
+        />
       </div>
+      <Image
+        src="/about/logo.png"
+        width={"114"}
+        height={"83"}
+        alt=""
+        style={{ display: "block", margin: "40px auto 2px auto" }}
+        priority
+      />
+      <Image
+        src="/about/text.png"
+        width={"342"}
+        height={"370"}
+        alt=""
+        style={{ display: "block", margin: "0 auto" }}
+        priority
+      />
     </div>
   );
 };

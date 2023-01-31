@@ -1,11 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
   margin: 0;
+}
+table {
+  width: 100%;
 }
 
 body {
@@ -111,11 +117,10 @@ a {
 .main-content {
   position: relative;
   width: 100%;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 44px 0 85px 0;
+  padding: 44px 0 0 0;
   box-sizing: border-box;
 }
 
@@ -175,4 +180,26 @@ a {
   background: url("/title.png") no-repeat center center;
   background-size: 100% 100%;
   margin: 5px auto 0 auto;
+}
+.sub {
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.flex_content {
+  display: flex;
+}
+.flex {
+  flex: 1;
+}
+.sub_h5 {
+  text-align: center;
+  color: #000;
+  font-weight: normal;
+  font-size: 13px;
+  white-space: pre;
+  margin: 0;
+  font-size: 13px;
+}
+.sub_h5 span {
+  color: #ff0000;
 }

@@ -15,13 +15,10 @@
   font-size: 18px;
 }
 .system_table {
-  /* width: 100%; */
-  display: block;
-  margin: 0 8px 30px 8px;
-  /* padding: 0 8px 30px 8px; */
   border-top: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
+
 .system_table tr {
   width: 100%;
 }
@@ -36,4 +33,65 @@
 }
 .system_table tr:nth-child(2n + 1) {
   background-color: #ebf7fd;
+}
+.system_label {
+  display: flex;
+  margin: 15px 6px 0 6px;
+}
+.system_item {
+  flex: 1;
+  margin: 0 6px;
+}
+.icon1,
+.icon2,
+.icon3 {
+  display: block;
+  width: 63px;
+  height: 63px;
+  margin: 0 auto 12px auto;
+}
+.icon1 {
+  background: url("/system/icon1.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.icon2 {
+  background: url("/system/icon2.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.icon3 {
+  background: url("/system/icon3.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.system_item h5 {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+  white-space: pre;
+  margin: 0;
+}
+.system_item .text {
+  font-size: 11px;
+  color: #666;
+  text-align: left;
+  letter-spacing: -1px;
+}
+.system_item span {
+  display: block;
+  width: 29px;
+  height: 3px;
+  background-color: #ff6c22;
+  border-radius: 1.5px;
+  margin: 8px auto 0 auto;
+}
+.half {
+  margin: 0 5px;
+}
+.left h5 {
+  color: #ff6c22;
+  font-size: 13px;
+  margin: 0 0 6px 0;
+}
+.left {
+  float: left;
 }

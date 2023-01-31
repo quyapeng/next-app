@@ -1,19 +1,11 @@
-import React, {
-  ReactNode,
-  useCallback,
-  useContext,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import React, { useRef, useState } from "react";
 import { Dropdown, DropdownRef } from "antd-mobile";
 // import styles from "./index.less";
 import Image from "next/image";
 
 import { NAVLIST } from "./navlist";
 
-export default ({ children, history }: any) => {
+export default function Nav() {
   // const [activeKey, setActiveKey] = useState<string>('');
   const logo = "/logo.png";
   const icon = "/icon.png";
@@ -125,4 +117,4 @@ export default ({ children, history }: any) => {
       <Number />
     </>
   );
-};
+}

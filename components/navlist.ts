@@ -17,8 +17,8 @@ const NAVLIST = [
         key: "system",
       },
       {
-        title: "装备介绍",
-        key: "equipment",
+        title: "环创与教具介绍",
+        key: "tool",
       },
       {
         title: "整体系统介绍",
@@ -51,7 +51,7 @@ const NAVLIST = [
   },
   {
     title: "合作模式",
-    key: "modal",
+    key: "model",
   },
   {
     title: "联系我们",

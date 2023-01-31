@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import info from "@/styles/Info.module.css";
@@ -6,9 +5,6 @@ import info from "@/styles/Info.module.css";
 export default function Info() {
   return (
     <>
-      {/* <Head>
-        <title>info</title>
-      </Head> */}
       <div className={info.info}>
         <Image
           src="/info/banner.png"
@@ -42,13 +38,6 @@ export default function Info() {
           height={"240"}
           alt=""
           style={{ margin: "30px auto 22px auto", display: "block" }}
-        />
-        <Image
-          src="/connect.png"
-          width={"375"}
-          height={"108"}
-          alt=""
-          style={{ margin: "0 auto", display: "block" }}
         />
       </div>
     </>
